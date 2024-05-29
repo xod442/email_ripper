@@ -1,11 +1,11 @@
 # email_ripper
-A simple python script that reads a CSV file and finds email addresses for employees and partners.
-
+A python program that reads a CSV file, finds and categorizes email addresses, and then prints them along with the count for employees and partners.
+Note: Specifically made to work with Microsoft Teams Attendance Reports
 
 # To use this application:
-Download the csv file and save it in the application directory as data.csv
+Run the program from its directory. From there, you will be able to select the CSV to parse. Output will be in the terminal
 
 # To run the program:
 python3 rip.py
 
-A list of email addresses will be created one for employees, the other for partners.
+A list of email addresses will be created; one for employees, the other for partners.
